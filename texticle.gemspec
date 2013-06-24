@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "texticle"
   spec.version       = Texticle::VERSION
   spec.authors       = ["David Hahn"]
-  spec.email         = ["dhahn@ctatechs.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["davidmichaelhahn@gmail.com"]
+  spec.description   = %q{ One stop shop for sending sms via email. }
+  spec.summary       = %q{Write a gem summary}
+  spec.homepage      = "https://github.com/dhahn/texticle"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency('pony')
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
