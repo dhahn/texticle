@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["David Hahn"]
   spec.email         = ["davidmichaelhahn@gmail.com"]
   spec.description   = %q{ One stop shop for sending sms via email. }
+  spec.summary   = %q{ Gem that makes sending a text message via email super simple }
   spec.homepage      = "https://github.com/dhahn/texticle"
   spec.license       = "MIT"
 
