@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'texticle/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "texticle"
+  spec.name          = "texticles"
   spec.version       = Texticle::VERSION
   spec.authors       = ["David Hahn"]
   spec.email         = ["davidmichaelhahn@gmail.com"]
