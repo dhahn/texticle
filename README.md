@@ -1,4 +1,4 @@
-# Texticle
+# Texticles
 
 Currently, Texticle is just a wrapper of Pony that allows for easy to use text via email. You simply put in whatever mail options (see pony <add link>) and the text is sent in context of that email account.
 
@@ -8,7 +8,7 @@ The gem is still young and I haven't had much time to work on it. That being sai
 
 Add this line to your application's Gemfile:
 
-    gem 'texticle'
+    gem 'texticles'
 
 And then execute:
 
@@ -16,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install texticle
+    $ gem install texticles
 
 ## Usage
 
-        require 'texticle'
+        require 'texticles'
 
         Texticle.text({
           :to => number, #this can be a string or array
