@@ -1,6 +1,8 @@
-# Texticles
+# Textosterone
 
-Currently, Texticle is just a wrapper of Pony that allows for easy to use text via email. You simply put in whatever mail options (see pony <add link>) and the text is sent in context of that email account.
+Textosterone is the powerhouse of texting. Learn to text like a person who has high levels of testosterone. 
+
+Currently, Textosterone is just a wrapper of Pony that allows for easy to use text via email. You simply put in whatever mail options (see pony <add link>) and the text is sent in context of that email account.
 
 The gem is still young and I haven't had much time to work on it. That being said, there are a few quirks that would scare people away from using it (i.e. excessive could not resolve host emails to configured email.) The eventual goal will be outlined with the github issue tracker. Anyone feel free to contribute to the project.
 
@@ -8,7 +10,7 @@ The gem is still young and I haven't had much time to work on it. That being sai
 
 Add this line to your application's Gemfile:
 
-    gem 'texticles'
+    gem 'textosterone'
 
 And then execute:
 
@@ -16,15 +18,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install texticles
+    $ gem install textosterone
 
 ## Usage
 
-        require 'texticles'
+        require 'textosterone'
 
-        Texticle.text({
+        Textosterone.text({
           :to => number, #this can be a string or array
-          :body => "Hola, texticle says hello",
+          :body => "Hola, textosterone says hello",
           :via => :smtp,
           :via_options => {
             :address              => 'smtp.gmail.com',
