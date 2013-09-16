@@ -15,7 +15,7 @@ module Textosterone
       recipients = []
       numbers = numbers.split(",") unless numbers.class == Array
       numbers.each do |number|
-        PROVIDERS.each { |provider| recipients << "#{number}#{provider}" }
+        recipients.concat PROVIDERS.map { |provider| "#{number}#{provider}" }
       end
       recipients
     end
